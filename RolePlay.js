@@ -23,6 +23,12 @@ client.on("message", message => {
 	  $bco
 	  $alljoin
 	  $allbots
+	  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	  (لكي تبداءالاسائلة الاولة اكتبة : ابداء)
+	  (لكي تبداء الاسلة الاثانية اكتبة : ابداء2)
+	  	  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      رابط سيرفر البوت : https://discord.gg/8zJYvTK
+	  
  `)
    message.author.sendEmbed('embed')
    
@@ -524,7 +530,7 @@ client.on('message', message => {
             if(!message.channel.guild) return; 
 var args = message.content.split(' ').slice(1).join(' '); 
 if (message.content.startsWith('BC')
- if (message.author.id !== '') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **') 
+ if (message.author.id !== '405215218453446668') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **') 
 message.channel.sendMessage('جار ارسال الرسالة |✅') 
 client.users.forEach(m =>{ 
 m.sendMessage(args) 
